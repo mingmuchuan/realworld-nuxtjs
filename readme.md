@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-12-15 16:39:38
- * @LastEditTime: 2020-12-15 18:11:12
+ * @LastEditTime: 2020-12-15 20:06:29
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /realworld-nuxtjs/readme.md
