@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-12-14 10:30:09
- * @LastEditTime: 2020-12-16 16:31:06
+ * @LastEditTime: 2020-12-16 17:35:37
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /realworld-nuxtjs/pages/home/index.vue
@@ -107,7 +107,7 @@ export default {
       }),
       getTags(tag)
     ])
-    let { articles, articlesCount } = articleData
+    let { articles, articlesCount } = articleData.data
     articles.forEach(item => {
       articles.isDisabled = false
     })
@@ -116,7 +116,7 @@ export default {
       articlesCount,  //总条数
       page,
       limit,
-      tags: tagsData.tags,  //做截取是因为前面会返回特殊字符，浏览器又显示不出来
+      tags: tagsData.data.tags,  //做截取是因为前面会返回特殊字符，浏览器又显示不出来
       tag,
       tab
     }

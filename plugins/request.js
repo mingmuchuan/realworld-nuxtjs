@@ -36,7 +36,12 @@ export default ({ store }) => {
   
   request.interceptors.response.use(response => {
     if(response.status == 200) {
-      return Promise.resolve(response.data);
+      /**
+       *  这里一开始返回的是response.data, 
+       *  但是start时，手动刷新页面，会error，返回response就不会出现这个问题
+       * 
+       */
+      return Promise.resolve(response);
     }else {
       return Promise.reject(response.statusText);
     }
