@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-12-15 16:39:38
- * @LastEditTime: 2020-12-15 20:30:33
+ * @LastEditTime: 2020-12-16 20:58:30
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /realworld-nuxtjs/readme.md
@@ -13,6 +13,8 @@
 
 # git tag v0.1.0 (先切分支)
 
+
 # 部署 git push origin v0.1.1 （后面跟的是版本号）
+
 
 
