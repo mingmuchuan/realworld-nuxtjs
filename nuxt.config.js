@@ -1,7 +1,7 @@
 /*
  * @Author: your name
  * @Date: 2020-12-14 10:30:09
- * @LastEditTime: 2020-12-16 14:05:14
+ * @LastEditTime: 2020-12-16 14:41:43
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /realworld-nuxtjs/nuxt.config.js
@@ -60,6 +60,6 @@ module.exports = {
     plugins: ['~/plugins/request', '~/plugins/dayjs'],
     server: {
         port: 3000,
-        host: '0.0.0.0', //所有网络都能访问到
+        host: 'localhost', //所有网络都能访问到
     }
 }

@@ -13,6 +13,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@nuxtjs/vercel-builder": "^0.18.1",
     "axios": "^0.21.0",
     "cookieparser": "^0.1.0",
     "dayjs": "^1.9.7",
