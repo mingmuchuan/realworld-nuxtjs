@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-12-14 11:25:37
- * @LastEditTime: 2020-12-15 13:59:44
+ * @LastEditTime: 2020-12-16 17:54:21
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /realworld-nuxtjs/pages/article/index.vue
@@ -83,7 +83,7 @@ export default {
   },
   components: { ArticleMeta, ArticleComment },
   async asyncData({ params }) {
-    let { article } = await articleDetail(params.slug)
+    let { data: { article } } = await articleDetail(params.slug)
     const md = new markdownIt()
     article.body = md.render(article.body)
     return {

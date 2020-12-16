@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-12-14 10:30:09
- * @LastEditTime: 2020-12-14 16:48:26
+ * @LastEditTime: 2020-12-16 17:54:37
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /realworld-nuxtjs/pages/login/index.vue
@@ -70,7 +70,7 @@ export default {
   methods: {
     async onSubmit() {
       try {
-        let { user } = this.isLogin ? await login(this.user) : await register(this.user)
+        let { data: { user } } = this.isLogin ? await login(this.user) : await register(this.user)
         this.$store.commit('setUser', user)
         Cookie.set('user', user)
         this.$router.push("/")

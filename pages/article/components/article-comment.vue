@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-12-15 13:54:29
- * @LastEditTime: 2020-12-15 14:09:58
+ * @LastEditTime: 2020-12-16 17:56:08
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /realworld-nuxtjs/pages/article/components/article-moment.vue
@@ -45,7 +45,7 @@ export default {
   },
   methods: {
     async getCommentList() {
-      let data = await getCommentList(this.article.slug)
+      let { data } = await getCommentList(this.article.slug)
       this.comments = data.comments
     }
   }
