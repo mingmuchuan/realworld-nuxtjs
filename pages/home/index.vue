@@ -1,7 +1,7 @@
 <!--
  * @Author: your name
  * @Date: 2020-12-14 10:30:09
- * @LastEditTime: 2020-12-16 17:52:34
+ * @LastEditTime: 2020-12-16 20:17:17
  * @LastEditors: Please set LastEditors
  * @Description: In User Settings Edit
  * @FilePath: /realworld-nuxtjs/pages/home/index.vue
@@ -11,7 +11,7 @@
 
         <div class="banner">
           <div class="container">
-            <h1 class="logo-font">github actions</h1>
+            <h1 class="logo-font">github actions2.o</h1>
             <p>A place to share your knowledge.</p>
           </div>
         </div>

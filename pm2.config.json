@@ -3,7 +3,7 @@
     {
       "name": "RealWorld", 
       "script": "npm",
-      "start": "nuxt start"
+      "start": "npm"
     }
   ]
 }
