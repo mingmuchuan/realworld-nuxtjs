@@ -1,8 +1,16 @@
+<!--
+ * @Author: your name
+ * @Date: 2020-12-14 10:30:09
+ * @LastEditTime: 2020-12-16 15:39:47
+ * @LastEditors: your name
+ * @Description: In User Settings Edit
+ * @FilePath: /realworld-nuxtjs/pages/index.vue
+-->
 <template>
     <div>
         <nav class="navbar navbar-light">
             <div class="container">
-              <a class="navbar-brand" href="index.html">conduit</a>
+              <a class="navbar-brand" href="index.html">GITHUB ACTIONS</a>
               <ul class="nav navbar-nav pull-xs-right">
                 <li class="nav-item">
                   <!-- Add "active" class when you're on that page" -->
